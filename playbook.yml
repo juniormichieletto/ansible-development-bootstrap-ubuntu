@@ -1,0 +1,9 @@
+---
+- name: My development bootstrap
+  hosts: all
+  become: true
+  roles:
+    - { role: 'java8-oracle', tags: 'java8-oracle'}
+    - { role: 'docker', tags: 'docker'}
+    - { role: 'vs-code', tags: 'vs-code'}
+    - { role: 'chrome', tags: 'chrome'}
