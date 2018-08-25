@@ -7,3 +7,4 @@
     - { role: 'docker', tags: 'docker'}
     - { role: 'vs-code', tags: 'vs-code'}
     - { role: 'chrome', tags: 'chrome'}
+    - { role: 'skypeforlinux', tags: 'skype'}

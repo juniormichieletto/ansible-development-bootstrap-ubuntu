@@ -25,6 +25,7 @@ Command to install a specific role
 - { role: 'java8-oracle', tags: 'java8-oracle'}
 - { role: 'vs-code', tags: 'vs-code'}
 - { role: 'chrome', tags: 'chrome'}
+- { role: 'skypeforlinux', tags: 'skype'}
 
 ### TODO/WIP
 
