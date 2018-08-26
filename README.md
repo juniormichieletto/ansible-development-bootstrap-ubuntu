@@ -22,6 +22,7 @@ Command to install a specific role
 
 ## Avaliables Roles & tags:
 
+- { role: 'git', tags: 'git'}
 - { role: 'java8-oracle', tags: 'java8-oracle'}
 - { role: 'vs-code', tags: 'vs-code'}
 - { role: 'chrome', tags: 'chrome'}
@@ -29,12 +30,12 @@ Command to install a specific role
 
 ### TODO/WIP
 
-- Git
 - Docker
 - Docker-compose
 - Nodejs
 - Angular-CLI
-- jdk-10
+- jdk-10 (maybe a select over var)
+- jdk-11 (maybe a select over var)
 - Intellj
 - eclipse
 - Double check and refactoring of all
