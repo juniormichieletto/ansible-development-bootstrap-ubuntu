@@ -3,6 +3,7 @@
   hosts: all
   become: true
   roles:
+    - { role: 'git', tags: 'git'}
     - { role: 'java8-oracle', tags: 'java8-oracle'}
     - { role: 'docker', tags: 'docker'}
     - { role: 'vs-code', tags: 'vs-code'}
