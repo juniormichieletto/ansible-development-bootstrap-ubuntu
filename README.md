@@ -23,6 +23,7 @@ Command to install a specific role
 ## Avaliables Roles & tags:
 
 - { role: 'git', tags: 'git'}
+- { role: 'docker', tags: 'docker'}
 - { role: 'java8-oracle', tags: 'java8-oracle'}
 - { role: 'vs-code', tags: 'vs-code'}
 - { role: 'chrome', tags: 'chrome'}
