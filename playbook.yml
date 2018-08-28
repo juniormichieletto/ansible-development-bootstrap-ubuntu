@@ -1,9 +1,12 @@
 ---
 - name: My development bootstrap
   hosts: all
+  vars_files:
+    - defaults/variables.yml
   become: true
   roles:
     - { role: 'git', tags: 'git'}
+    - { role: 'docker', tags: 'docker'}
     - { role: 'java8-oracle', tags: 'java8-oracle'}
     - { role: 'docker', tags: 'docker'}
     - { role: 'vs-code', tags: 'vs-code'}

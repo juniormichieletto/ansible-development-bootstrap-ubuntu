@@ -1,4 +1,7 @@
 ---
+- include_tasks: add-repository.yml
+  when: ansible_os_family == 'Debian'
+
 - name: Install Docker.
   package:
     name: "{{ docker_package }}"
