@@ -3,12 +3,15 @@
   hosts: all
   vars_files:
     - defaults/variables.yml
+    - defaults/var-docker.yml
+    - defaults/var-node-js.yml
   become: true
   roles:
     - { role: 'git', tags: 'git'}
     - { role: 'docker', tags: 'docker'}
     - { role: 'java8-oracle', tags: 'java8-oracle'}
     - { role: 'docker', tags: 'docker'}
+    - { role: 'node-js', tags: 'nodejs'}
     - { role: 'vs-code', tags: 'vs-code'}
     - { role: 'chrome', tags: 'chrome'}
     - { role: 'skypeforlinux', tags: 'skype'}

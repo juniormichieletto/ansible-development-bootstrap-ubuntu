@@ -25,15 +25,13 @@ Command to install a specific role
 - { role: 'git', tags: 'git'}
 - { role: 'docker', tags: 'docker'}
 - { role: 'java8-oracle', tags: 'java8-oracle'}
+- { role: 'node-js', tags: 'nodejs'}
 - { role: 'vs-code', tags: 'vs-code'}
 - { role: 'chrome', tags: 'chrome'}
 - { role: 'skypeforlinux', tags: 'skype'}
 
 ### TODO/WIP
 
-- Docker
-- Docker-compose
-- Nodejs
 - Angular-CLI
 - jdk-10 (maybe a select over var)
 - jdk-11 (maybe a select over var)
