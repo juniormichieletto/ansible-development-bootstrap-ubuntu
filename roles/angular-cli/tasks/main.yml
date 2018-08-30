@@ -1,0 +1,10 @@
+---
+- name: Install Angular-cli
+  npm:
+    name: '@angular/cli'
+    global: yes
+
+- name: Instal ncu
+  npm:
+    name: npm-check-updates
+    global: yes
