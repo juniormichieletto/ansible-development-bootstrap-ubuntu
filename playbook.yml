@@ -14,5 +14,6 @@
     - { role: 'node-js', tags: 'nodejs'}
     - { role: 'angular-cli', tags: 'angular-cli'}
     - { role: 'vs-code', tags: 'vs-code'}
+    - { role: 'intellij', tags: 'intellij'}
     - { role: 'chrome', tags: 'chrome'}
     - { role: 'skypeforlinux', tags: 'skype'}

@@ -28,6 +28,7 @@ Command to install a specific role
 - { role: 'node-js', tags: 'nodejs'}
 - { role: 'angular-cli', tags: 'angular-cli'}
 - { role: 'vs-code', tags: 'vs-code'}
+- { role: 'intellij', tags: 'intellij'}
 - { role: 'chrome', tags: 'chrome'}
 - { role: 'skypeforlinux', tags: 'skype'}
 
@@ -35,6 +36,5 @@ Command to install a specific role
 
 - jdk-10 (maybe a select over var)
 - jdk-11 (maybe a select over var)
-- Intellj
 - eclipse
 - Double check and refactoring of all
