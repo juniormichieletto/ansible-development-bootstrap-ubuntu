@@ -1,0 +1,7 @@
+---
+- name: Install OpenJDK 11
+  become: yes
+  apt: name={{item}} state=latest
+  with_items:
+    - openjdk-11-jre
+    - openjdk-11-jdk

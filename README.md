@@ -11,13 +11,18 @@ Download in: www.ansible.com
 Command to Install all.
 
 `
-    ansible-playbook -l localhost playbook.yml
+    sudo ansible-playbook -l localhost playbook.yml
 `
 
 Command to install a specific role
 
 `
-    ansible-playbook -l localhost playbook.yml --tags "<tag_name>"
+    sudo ansible-playbook -l localhost playbook.yml --tags "<tag_name>"
+`
+Like that...
+
+`
+    sudo ansible-playbook -l localhost playbook.yml --tags java11-oracle
 `
 
 ## Avaliables Roles & tags:
@@ -25,6 +30,8 @@ Command to install a specific role
 - { role: 'git', tags: 'git'}
 - { role: 'docker', tags: 'docker'}
 - { role: 'java8-oracle', tags: 'java8-oracle'}
+- { role: 'java11-oracle', tags: 'java11-oracle'}
+- { role: 'openjdk-11', tags: 'openjdk-11'}
 - { role: 'node-js', tags: 'nodejs'}
 - { role: 'angular-cli', tags: 'angular-cli'}
 - { role: 'vs-code', tags: 'vs-code'}
@@ -34,7 +41,5 @@ Command to install a specific role
 
 ### TODO/WIP
 
-- jdk-10 (maybe a select over var)
-- jdk-11 (maybe a select over var)
 - eclipse
 - Double check and refactoring of all

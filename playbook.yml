@@ -10,6 +10,8 @@
     - { role: 'git', tags: 'git'}
     - { role: 'docker', tags: 'docker'}
     - { role: 'java8-oracle', tags: 'java8-oracle'}
+    - { role: 'java11-oracle', tags: 'java11-oracle'}
+    - { role: 'openjdk-11', tags: 'openjdk-11'}
     - { role: 'docker', tags: 'docker'}
     - { role: 'node-js', tags: 'nodejs'}
     - { role: 'angular-cli', tags: 'angular-cli'}
