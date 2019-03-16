@@ -25,6 +25,12 @@ Like that...
     sudo ansible-playbook -l localhost playbook.yml --tags java11-oracle
 `
 
+or multiple tags
+
+`
+    sudo ansible-playbook -l localhost playbook.yml --tags git,java11-oracle,chrome
+`
+
 ## Avaliables Roles & tags:
 
 - { role: 'git', tags: 'git'}

@@ -1,6 +1,7 @@
 ---
 - name: My development bootstrap
-  hosts: all
+  hosts: 127.0.0.1
+  connection: local
   vars_files:
     - defaults/variables.yml
     - defaults/var-docker.yml
