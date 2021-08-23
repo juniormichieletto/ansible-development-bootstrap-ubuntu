@@ -1,0 +1,8 @@
+---
+- name: Update repositories cache and install "indicator-multiload" package
+  apt:
+    name: indicator-multiload
+    update_cache: yes
+ 
+- debug:
+    msg: "Now you can find the 'System Load Indicator' in your apps"

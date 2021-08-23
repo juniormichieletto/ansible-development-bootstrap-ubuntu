@@ -1,6 +1,9 @@
 ---
-- name: Install Git
+- name: Update repositories cache and install "Git" package
   apt:
     name: git
     state: latest
-    install_recommends: no
+    update_cache: yes
+
+- debug:
+   msg: "Please config your GIT Credentials"

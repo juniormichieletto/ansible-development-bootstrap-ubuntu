@@ -1,6 +1,6 @@
 ---
 - name: My development bootstrap
-  hosts: 127.0.0.1
+  hosts: localhost
   connection: local
   vars_files:
     - defaults/variables.yml
@@ -8,15 +8,15 @@
     - defaults/var-node-js.yml
   become: true
   roles:
-    - { role: 'git', tags: 'git'}
+    - { role: 'indicator-multiload', tags: ['base-bootstrap', 'indicator-multiload']}
+    - { role: 'git', tags: ['base-bootstrap', 'git']}
+    - { role: 'vs-code', tags: ['base-bootstrap', 'vs-code']}
     - { role: 'docker', tags: 'docker'}
     - { role: 'java8-oracle', tags: 'java8-oracle'}
     - { role: 'java11-oracle', tags: 'java11-oracle'}
     - { role: 'openjdk-11', tags: 'openjdk-11'}
-    - { role: 'docker', tags: 'docker'}
     - { role: 'node-js', tags: 'nodejs'}
     - { role: 'angular-cli', tags: 'angular-cli'}
-    - { role: 'vs-code', tags: 'vs-code'}
     - { role: 'intellij', tags: 'intellij'}
     - { role: 'chrome', tags: 'chrome'}
     - { role: 'skypeforlinux', tags: 'skype'}
